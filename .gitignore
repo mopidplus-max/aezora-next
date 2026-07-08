@@ -1,14 +1,11 @@
 # Gradle
 .gradle/
 build/
+gradle/
 *.apk
 *.aab
-
-# Разреши wrapper файлы
-!gradle/
-!gradle/wrapper/
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
 
 # Android Studio
 .idea/
@@ -20,7 +17,6 @@ local.properties
 
 # OS
 .DS_Store
-Thumbs.db
 
 # Keystore
 *.jks
