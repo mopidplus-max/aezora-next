@@ -2,9 +2,9 @@ name: Build APK
 
 on:
   push:
+    branches: [ main, develop ]
+  pull_request:
     branches: [ main ]
-  tags:
-    - 'v*'
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build APK
+      - name: Build with Gradle
         uses: gradle/gradle-build-action@v2
         with:
           gradle-version: '8.2'
