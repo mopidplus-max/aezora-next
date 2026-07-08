@@ -1,0 +1,6 @@
+-keep class com.aezora.next.data.models.** { *; }
+-keep class com.aezora.next.data.api.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
