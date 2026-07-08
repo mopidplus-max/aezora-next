@@ -4,8 +4,6 @@ build/
 gradle/
 *.apk
 *.aab
-gradlew
-gradlew.bat
 
 # Android Studio
 .idea/
