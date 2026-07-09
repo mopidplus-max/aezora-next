@@ -1,0 +1,30 @@
+*.apk
+*.ap_
+*.dex
+*.so
+*.keystore
+*.jks
+
+# Gradle files
+.gradle/
+build/
+gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper/
+local.properties
+gradlew-download/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+.env
+*.log
+gradle-wrapper/
